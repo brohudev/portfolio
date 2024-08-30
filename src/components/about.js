@@ -2,6 +2,7 @@ import React from 'react';
 import './css/about.css'; // Import component-specific CSS
 
 const About = () => {
+    
     return (
         <section id="about" className="about">
             <h2>About Me</h2>

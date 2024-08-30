@@ -2,7 +2,7 @@
 import React from 'react';
 import './css/whatido.css'; // Import component-specific CSS
 
-const WhatIDo = () => {
+const Experience = () => {
     return (
         <section id="what-i-do" className="what-i-do">
             <h2>What I Do</h2>
@@ -14,4 +14,4 @@ const WhatIDo = () => {
     );
 };
 
-export default WhatIDo;
+export default Experience;
