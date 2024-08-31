@@ -5,7 +5,7 @@ import './css/projects.css'; // Import component-specific CSS
 const ProjectsSection = () => {
     return (
         <div className="projects-section">
-            <div className="projects-heading">Projects</div>
+
             <div className="project-content">
                 <ProjectBox
                     title="Stellar Scholars"

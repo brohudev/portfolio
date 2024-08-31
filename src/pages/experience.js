@@ -1,6 +1,6 @@
 // src/components/WhatIDo.js
 import React from 'react';
-import './css/whatido.css'; // Import component-specific CSS
+import './css/experience.css'; // Import component-specific CSS
 
 const Experience = () => {
     return (

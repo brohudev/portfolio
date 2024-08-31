@@ -1,20 +1,12 @@
-/* Container for the entire section */
 .project {
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 .projects-section {
      display: flex;
      align-items: center; /* Vertically center the heading */
      justify-content: space-between;
      padding: 0px;
-   }
-   
-   /* Styling for the "Projects" heading */
-   .projects-heading {
-     flex-shrink: 0; /* Prevent the heading from shrinking */
-     font-size: 2rem;
-     font-weight: bold;
-     margin-right: 20px; /* Space between the heading and the content */
    }
    
    /* Styling for the project content */
@@ -31,10 +23,10 @@
    }
    
    .project-box h3 {
-     font-size: 1.5rem;
-     margin-bottom: 10px;
-     font-weight: bold;
-   }
+      font-size: 1.5rem;
+      margin-left: 15px;
+      font-weight: bold;
+    }
    
    .project-box p {
      font-size: 1rem;
@@ -46,14 +38,14 @@
      background-color: #f9f9f9;
    }
    
-   /* Style for the first p tag in each project box */
+   /* Style for the subheader */
    .project-box p:first-of-type {
-     font-weight: bold;
+     font-weight: 900;
      color: #2c3e50;
-     margin-bottom: 10px; /* Adjust spacing if needed */
+     margin-bottom: 10px;
    }
    
-   /* Optional: Style for the subsequent p tags */
+   /* Optional: Style for the description */
    .project-box p:not(:first-of-type) {
      color: #7f8c8d;
    }

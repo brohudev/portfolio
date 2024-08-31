@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
-
+//Select a random tagline at every refresh, chosen from a static array
 const Tagline = () => {
-     // Array of taglines
      const taglines = [
           "Code warrior by trade, pun master by choice!",
           "Making the impossible possible, one bug at a time!",
           "Debugging life, one keystroke at a time!"
      ];
 
-     // State to hold the current tagline
      const [tagline, setTagline] = useState("");
 
-     // Effect to set a random tagline on mount
      useEffect(() => {
           const getRandomTagline = () => {
                const randomIndex = Math.floor(Math.random() * taglines.length);

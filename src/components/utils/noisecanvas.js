@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-
+//creates the tv static effect. I have **NO** idea how this works i just yoinked it.
 const NoiseCanvas = () => {
   const canvasRef = useRef(null);
 
@@ -62,7 +62,7 @@ const NoiseCanvas = () => {
     noise();
   }, []);
 
-  return <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex: 9999, pointerEvents: 'none', opacity: '0.04' }} />;
+  return <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex:1000, pointerEvents: 'none', opacity: '.07' }} />;
 };
 
 export default NoiseCanvas;

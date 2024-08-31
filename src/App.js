@@ -1,6 +1,5 @@
 import React from 'react';
 import About from './components/about';
-import Contact from './components/contact';
 import Tagline from './components/tagline';
 
 const App = () => {
@@ -9,7 +8,6 @@ const App = () => {
         <div className="content">
             <Tagline />
             <About />
-            <Contact />
         </div>
     </div>
   );
