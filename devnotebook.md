@@ -2,6 +2,7 @@
  - components
      - insert the moving bubbles background script thingy
      - style and size the footer just like the header.
+     - the footer resume link should contain the multi page master resume
      - put more taglines in the tagline array
  - misc:
      - create actual icons for the site
@@ -10,7 +11,7 @@
      - later: clean up the css of every file to be more streamlined.
  - pages:
      - add a misc page:
-          - this will contain all your fun tidbits (i act forgot what i had in mind :D)
+          - Model it on balex's misc page.
      - about me page:
           - insert pictures in the about me page.
           - make it longer and follow abellon's style. i.e a paragraph on you being at uh, then a blurb about your extracurricular stints with usip, and finally your club shenanigans with cougarcs.
@@ -18,7 +19,7 @@
      - "work" page:
           - insert funnt meme saying if youd like to collaborate, email me!
      - experience page
-          - afg
+          - vertical scrollable timeline with boxes that have glass effects and the things i have done, kinda like nicholas' site i think.
      - projects page
           - make it modular
           - add glass effects to the project boxes, 
