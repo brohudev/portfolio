@@ -1,12 +1,17 @@
 footer {
-     text-align: center;
-     margin-top: 20px;
-     font-size: 0.8em;
-     color: #777;
-     padding: 10px;
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     justify-content:start;
-   }
+  text-align: center;
+  font-size: 01em;
+  color: #d3d3d3;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer-button {
+  text-align: center;
+  border-radius: 1em;
+  /* todo implement this css so the buttons arent mashed together. */
+}

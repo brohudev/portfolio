@@ -2,6 +2,7 @@
 import React from 'react';
 import './css/projects.css'; // Import component-specific CSS
 
+//todo: add more projects and fill up this section stylistically
 const ProjectsSection = () => {
     return (
         <div className="projects-section">

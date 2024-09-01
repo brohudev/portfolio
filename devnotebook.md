@@ -5,6 +5,7 @@
      - the footer resume link should contain the multi page master resume
      - put more taglines in the tagline array
  - misc:
+     - version the site so that you can build in public(mostly)
      - create actual icons for the site
      - create an actual logo for you to use.
      - later: make the loading and images faster. use the cloudflare cdn ig.
@@ -12,7 +13,9 @@
      - later: add a javascript pacman game and a console of other such games as a way of 
  - pages:
      - add a misc page:
-          - Model it on balex's misc page.
+          - page with all of the pictures of my art that i want to post online. 
+          - pictures of some of my photography.
+          - list of the weird things i know a little bit about.
      - about me page:
           - insert pictures in the about me page.
           - make it longer and follow abellon's style. i.e a paragraph on you being at uh, then a blurb about your extracurricular stints with usip, and finally your club shenanigans with cougarcs.
