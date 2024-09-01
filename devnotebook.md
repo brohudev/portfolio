@@ -9,6 +9,7 @@
      - create an actual logo for you to use.
      - later: make the loading and images faster. use the cloudflare cdn ig.
      - later: clean up the css of every file to be more streamlined.
+     - later: add a javascript pacman game and a console of other such games as a way of 
  - pages:
      - add a misc page:
           - Model it on balex's misc page.

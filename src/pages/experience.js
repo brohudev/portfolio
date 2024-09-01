@@ -14,9 +14,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
-
-
-
-
-// asdlfkjaldkfjlaksdf

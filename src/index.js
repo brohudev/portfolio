@@ -8,21 +8,21 @@ import App from './App';
 import NoiseCanvas from './components/noisecanvas';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-// import Background from './components/background'  //* change after implementation
+import Background from './components/background.js'  //* change after implementation
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <Router>
-      <NoiseCanvas />
-      {/* <Background /> */}
       <Navbar />
-        <Routes>
-          <Route path="/" element={<App />} />
-          <Route path="/projects" element={<ProjectsSection />} />
-          <Route path="/experience" element={<Experience />} />
-        </Routes>
+      <Background />
+      <NoiseCanvas />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/projects" element={<ProjectsSection />} />
+        <Route path="/experience" element={<Experience />} />
+      </Routes>
       <Footer />
     </Router>
   </React.StrictMode>
