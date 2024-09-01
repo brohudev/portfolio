@@ -5,7 +5,6 @@ import './css/experience.css'; // Import component-specific CSS
 const Experience = () => {
     return (
         <section id="what-i-do" className="what-i-do">
-            <h2>What I Do</h2>
             <p>Sophomore in Computer Science: Currently taking Software Design, Operating Systems, and Database Systems at UH.</p>
             <p>Software Team Lead at USIP VI: Leading the Undergraduate Student Instrumentation Project VI, a student-led Balloon-borne Auroral Research group at UH, publishing original research in AIAA student paper competitions.</p>
             <p>Director of CodeRED at CougarCS: Building Houston's largest hackathon alongside my fellow students.</p>
@@ -15,3 +14,9 @@ const Experience = () => {
 };
 
 export default Experience;
+
+
+
+
+
+// asdlfkjaldkfjlaksdf
