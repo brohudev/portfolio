@@ -1,25 +1,24 @@
 .footer {
-  text-align: center;
-  font-size: 4em; /* Adjust the font size as needed */
-  color: #c4a7e7;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: transform 0.3s ease-in-out;
   text-decoration: underline dotted;
+
 }
 
-footer-button {
+.footer-button {
   text-align: center;
   border-radius: 1em;
-  color: #c4a7e7;
-  size: 24;
+  margin: 10px 10px 30px 10px;
+  padding: 7px;
+  background-color: #9ccfd8;
+  border-color: #9ccfd8;
+  transition: all 0.3s ease;
 }
 
-.glass {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0));
-  backdrop-filter: blur(100px);
+.footer-button:hover{
+  scale: 1.4;
 }

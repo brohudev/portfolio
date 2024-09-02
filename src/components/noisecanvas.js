@@ -62,7 +62,7 @@ const NoiseCanvas = () => {
     noise();
   }, []);
 
-  return <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex:1000, pointerEvents: 'none', opacity: '.07' }} />;
+  return <canvas ref={canvasRef} style={{ position: 'fixed', top: 0, left: 0, zIndex:1000, pointerEvents: 'none', opacity: '.06' }} />;
 };
 
 export default NoiseCanvas;
