@@ -11,7 +11,7 @@ const Navbar = () => {
                         <button class="navbar-button">Home</button>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/experience">
                         <button class="navbar-button">Experience</button>
                     </Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <Link to="/projects">
                         <button class="navbar-button">Projects</button>
                     </Link>
-                </li>
+                </li> */}
             </ul>
         </nav>
     );
