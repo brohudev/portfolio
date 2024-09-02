@@ -1,26 +1,47 @@
-about {
-     text-align: center;
-     margin-top: 20px;
-     padding: 10px;
-     position: fixed;
-     right: 200;
-     bottom: 100;
-}
-
-/* todo fix this css  */
-.content {
-  position: fixed;
+.about-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 80%;
-  top: 500px;
   justify-content: center;
-}
-section {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background: rgba(25, 23, 36, .75);
+  backdrop-filter: blur(80px);
+  border-radius: 15px;
+  width: 55%;
+  height: 75%;
   text-align: center;
+  color: #9ccfd8;
+  box-sizing: border-box;
+}
 
+.header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  color: #eb6f92;
+}
+
+.header h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 5px 0 20px;
+  color: #ebbcba;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.home-image {
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
 }

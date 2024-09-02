@@ -4,9 +4,15 @@ import './css/about.css'; // Import component-specific CSS
 const About = () => {
     
     return (
-        <section id="about" className="about">
-            <p>Hi! I'm a Computer Science major at the University of Houston. My interests are in Scientific Computing, Astrophysics, Cryptography, and Cybersecurity. You'll often find me discussing all things tech, cars, planes, rockets, and intriguing science topics!</p>
-            <p>My Interest in programming stemmed from being a part of the Robotics team in High School and taking multiple CS courses, among which AP CSA was the course which made me switch from engineering to pure CS. </p>
+        <section id="about" class="about-container">
+            <img src="/hitarth.png" alt="Hitarth" className="home-image" />
+            <header className="header">
+                <h1>Hitarth Thanki (aka "brohudev")</h1>
+                <h2>Debugging life, one keystroke at a time</h2>
+            </header>
+            <p>Hiya! 👋🏽</p>
+            <p> I’m a Computer Science major at the University of Houston, focusing on Software Design, Operating Systems, and Database Systems. I’m passionate about Scientific Computing, Astrophysics, Cryptography, and Cybersecurity, and I love discussing tech (phones, laptops, PCs), cars, planes, rockets, and cool science topics!</p>
+            <p>I’m the Software Team Lead for Ungerdraguate Student Instrumentation Project VI (USIP VI), where we build and test balloon-borne experiments. I also lead CodeRed at CougarCS, organizing Houston’s largest hackathon, and am part of the CougarCS Infosec CTF Team, focusing on cybersecurity challenges and workshops.</p>
         </section>
     );
 };

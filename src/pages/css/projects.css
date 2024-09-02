@@ -1,6 +1,7 @@
 .project {
   margin-bottom: 20px;
   margin-left: 10px;
+  z-index: 100;
 }
 .projects-section {
      display: flex;
