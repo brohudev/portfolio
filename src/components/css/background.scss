@@ -1,12 +1,12 @@
 :root {
-  --color-bg1: rgb(108, 0, 162);
-  --color-bg2: rgb(0, 17, 82);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
-  --color-interactive: 140, 100, 255;
+  --color-bg1: #191724;
+  --color-bg2: #232136;
+  --color1: 224, 222, 244;
+  --color2: 156, 207, 216;
+  --color3: 235, 188, 186;
+  --color4: 49, 116, 143;
+  --color5: 246, 193, 119;
+  --color-interactive: 196, 167, 231;
   --circle-size: 80%;
   --blending: hard-light;
 }
@@ -74,7 +74,7 @@
     top: calc(50% - var(--circle-size) / 2);
     left: calc(50% - var(--circle-size) / 2);
     transform-origin: center center;
-    opacity: 1;
+    opacity: 0.5;
   }
 
   .g2 {

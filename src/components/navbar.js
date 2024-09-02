@@ -5,7 +5,7 @@ import './css/navbar.css';
 //here have a basic navigation bar
 const Navbar = () => {
     return (
-        <nav>
+        <nav class='glass'>
             <ul>
                 <li>
                     <Link to="/">Home</Link>

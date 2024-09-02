@@ -1,17 +1,25 @@
-footer {
+.footer {
   text-align: center;
-  font-size: 01em;
-  color: #d3d3d3;
+  font-size: 4em; /* Adjust the font size as needed */
+  color: #c4a7e7;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: underline dotted;
 }
 
 footer-button {
   text-align: center;
   border-radius: 1em;
-  /* todo implement this css so the buttons arent mashed together. */
+  color: #c4a7e7;
+  size: 24;
+}
+
+.glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) rgba(255, 255, 255, 0));
+  backdrop-filter: blur(100px);
 }
