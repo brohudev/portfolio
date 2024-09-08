@@ -1,6 +1,10 @@
-* {
+html, body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+  font-family: "Libre Franklin", sans-serif;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-

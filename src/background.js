@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './css/background.scss';
+import './background.scss';
 
 const Background = () => {
   useEffect(() => {
@@ -10,8 +10,8 @@ const Background = () => {
     let tgY = 0;
 
     function move() {
-      curX += (tgX - curX) / 20;
-      curY += (tgY - curY) / 20;
+      curX += (tgX - curX) / 13;
+      curY += (tgY - curY) / 13;
       if (interBubble) {
         interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
       }
@@ -44,11 +44,6 @@ const Background = () => {
         </defs>
       </svg>
       <div className="gradients-container">
-        <div className="g1"></div>
-        <div className="g2"></div>
-        <div className="g3"></div>
-        <div className="g4"></div>
-        <div className="g5"></div>
         <div className="interactive"></div>
       </div>
     </div>
